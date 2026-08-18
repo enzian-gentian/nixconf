@@ -1,24 +1,14 @@
 {
-  flake.nixosModules.ssh =
-    { pkgs, ... }:
-    {
-      environment.systemPackages = [ pkgs.openssh ];
+  perSystem = { pkgs, ... }: {
+    packages.ssh = pkgs.symlinkJoin {
+      name = "ssh";
+      paths = [ pkgs.openssh ];
+      nativeBuildInputs = [ pkgs.makeWrapper ];
 
-      programs.ssh.extraConfig = builtins.readFile ./ssh_config;
-
-      services.openssh = {
-        enable = true;
-        ports = [ 22 ];
-
-        openFirewall = true;
-
-        settings = {
-          PermitRootLogin = "no";
-
-          PasswordAuthentication = false;
-          KbdInteractiveAuthentication = false;
-          X11Forwarding = false;
-        };
-      };
+      postBuild = ''
+        wrapProgram $out/bin/ssh \
+          --add-flags "-F ${./ssh_config}"
+      '';
     };
+  };
 }
