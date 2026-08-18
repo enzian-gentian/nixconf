@@ -1,0 +1,11 @@
+{
+  "telemetry.telemrtyLevel": "off",
+  "update.mode": "none",
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "nix.enableLanguageServer": true,
+  "nix.serverPath": "nil",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "explorer.confirmDragAndDrop": false
+}

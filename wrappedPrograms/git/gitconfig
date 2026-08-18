@@ -1,0 +1,15 @@
+[user]
+    name = Enzian Gentian
+    email = enzian_gentian@fastmail.com
+
+[init]
+    defaultBranch = main
+
+[core]
+    editor = nano
+
+[pull]
+    rebase = true
+
+[push]
+    autoSetupRemote = true
