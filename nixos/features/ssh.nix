@@ -5,6 +5,8 @@
       inputs.self.packages.${pkgs.system}.ssh
     ];
 
+    programs.ssh.extraConfig = builtins.readFile ../../wrappedPrograms/ssh/ssh_config;
+
     services.openssh = {
       enable = true;
       ports = [ 22 ];
