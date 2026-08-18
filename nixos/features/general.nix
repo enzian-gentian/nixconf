@@ -8,6 +8,7 @@
     {
       imports = [
         self.nixosModules.nix
+        self.nixosModules.ssh
         self.nixosModules.git
       ];
 
