@@ -1,0 +1,244 @@
+# Software
+
+## CLI
+
+### Terminal
+
+Foot 
+
+### Shell
+
+Zsh (Z-Shell)
+
+#### Prompt Engine
+
+Starship
+
+#### Plugins
+
+Plugin Manager: Antidote
+
+Plugin List: [
+    git
+
+    python
+    pip
+    node
+    npm
+    yarn
+    golang
+    rust
+
+    zsh-nix-shell
+    nix-zsh-completions
+
+    sudo
+    extract
+    history
+    command-not-found
+    vscode
+
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+]
+
+#### Applications
+
+Zoxide
+helix
+bat
+eza
+fzf
+ripgrep
+fd
+tldr
+bottom/btm
+fastfetch
+lf
+imagemagick
+drift
+wl-clipboard
+ffmpeg
+chafa
+pyenv
+
+## Graphical Interface
+
+Wayland
+
+### Compositor
+
+Hyprland
+
+#### Offical
+
+hyprpaper
+hyprpicker
+hyprlock
+hyprcursor
+
+#### Shell
+
+quickshell
+
+#### Notifications
+
+dunst
+
+#### OSD
+
+quickshell
+
+#### Launcher
+
+Rofi
+
+#### Display
+
+Hyprland Configuration
+
+#### Screen-shotting
+
+Grim + Slurp + Swappy
+
+#### Recording
+
+Grim + wf-recorder
+
+#### zooming
+
+woomer
+
+#### clip board
+
+cliphist
+
+### Login Screen
+
+greetd
+
+## Bootloader
+
+rEFInd
+
+## IDE
+
+vscodium
+
+### Extensions
+
+Python:
+LSP: Pyright
+Linter: Ruff (Ruff check)
+Formatter: Ruff (Ruff format)
+Engine: Rope
+
+Rust:
+LSP: rust-analyzer
+Linter: clippy
+Formatter: rustfmt
+Engine: rust-analyzer
+Debugger: CodeLLDB
+
+TOML:
+LSP: Taplo
+Linter: Taplo
+Formatter: Taplo + SchemaStore
+Engine: Taplo
+
+Nix:
+LSP: nixd
+Linter: statix
+Formatter: nixfmt
+Engine: statix
+
+QtQuick:
+LSP: qmlls
+Linter: qmllint
+Formatter: qmlformat
+Engine: qmlls
+
+HTML:
+LSP: Emmet
+Linter: HTMLHint + axe-linter
+Formatter: Prettier
+Engine: Auto Rename Tag
+
+CSS:
+LSP: Built-in
+Linter: Stylelint
+Formatter: Prettier
+Engine: Color Highlight
+
+JavaScript:
+LSP: tsserver
+Linter: ESLint
+Formatter: Biome
+
+### Themes
+
+Material Theme Icons
+Material Product Icons
+Based-Ayu
+
+## Security
+
+hyprpolkitagent
+
+## Connections
+
+### Wifi
+
+Impala
+
+### Bluetooth
+
+bluetuith
+
+## Browser
+
+Firefox (autoconfig)
+
+## Audio
+
+### Sound Server
+
+Pipewire
+
+### Driver
+
+ALSA
+
+### Control Panels
+
+pactl
+Quickshell
+
+### Audio Enhancement
+
+Easy Effects
+
+## Media
+
+MPV
+
+## Torrentting
+
+Superseedr
+
+## Communications
+
+### Vesktop
+
+Vencord / vesktop
+
+### Whatsapp
+
+Whatsapp Derivation
+
+Firefox as the renderer,
+Custom styling through userChrome.css
+
+## VPN
+
+Clash-verge-rev
